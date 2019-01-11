@@ -26,9 +26,9 @@ describe ('Haiku', function() {
         expect(haiku.endsInE(stringArray)).toEqual(0);
     })
 
-    it('should return syllable count', function(){
-        let haiku =  new Haiku("Hello world","Goodbye World", "End world");
-        let stringArray = haiku.splitWordtoArray(haiku.line1);
-        expect(haiku.countSyllables(stringArray)).toEqual(3);
-    })
+    // it('should return syllable count', function(){
+    //     let haiku =  new Haiku("Hello world","Goodbye World", "End world");
+    //     let stringArray = haiku.splitWordtoArray(haiku.line1);
+    //     expect(haiku.countSyllables(stringArray)).toEqual(3);
+    // })
 })
